@@ -8,6 +8,29 @@ For a computational chemist, submitting multiple jobs can done done easily with 
 
 These scripts can convert multiple .log files to .com files, extract multiple frames from multiple .sdf files and convert them to .com files, and lastly extract energy data from multiple .log files to csv format for use in spreasheets. 
 
+## Installation
+
+To be able execute script from anywhere:
+ - Add the shebang line `#!/usr/bin/env python3` to the beginning of each script
+ - Rename and remove the .py file extension
+ - Move script to `/bin` or `~/bin`
+ - Grant files executable permission
+
+## Commands
+
+### log2com
+`log2com file.log` Converts specified .log file to .com file. Will prompt user to enter job keywords line.
+
+`log2com -all` Converts all .log files in directory to .com files. Will prompt user to enter job keywords line.
+
+### sdf2com
+`sdf2com file.sdf` Converts specified .sdf file to .com file. Will prompt user to enter job keywords line.
+
+`sdf2com -all` Converts all .sdf files in directory to .com files. Will prompt user to enter job keywords line.
+
+### log2csv
+`log2csv` Extracts data from all .log files in directory and saves then in a file named `energies.csv`.
+
 ## User Stories
 ### log2com
 - As a user, I want to be able to specify the job keywords once for all the .com files to be generated
