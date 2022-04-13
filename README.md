@@ -30,7 +30,7 @@ To be able execute script from anywhere:
 
 `sdf2com -all` Converts all .sdf files in directory to .com files. Will prompt user to enter job keywords line.
 
-`geom=connectivity` must be enabled in these job options.
+`geom=connectivity` MUST be enabled in these job options.
 
 ### log2csv
 `log2csv` Extracts data from all .log files in directory and saves then in a file named `energies.csv`.
