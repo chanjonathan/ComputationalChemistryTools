@@ -38,13 +38,13 @@ To be able execute script from anywhere:
 ## User Stories
 ### log2com
 - As a user, I want to be able to specify the job keywords once for all the .com files to be generated
-- As a user, I want to be able to target a specic .log file to be converted to a .com file
+- As a user, I want to be able to target a specific .log file to be converted to a .com file
 - As a user, I want to be able to target all .log files in a directory to be converted to .com files
 - 
 ### sdf2com
 - As a user, I want to be able to specify the job keywords once for all the .com files to be generated
 - As a user, I want to be able to extract all the frames of an .sdf file for conversion to .com files
-- As a user, I want to be able to target a specic .sdf file to be converted to a .com file
+- As a user, I want to be able to target a specific .sdf file to be converted to a .com file
 - As a user, I want to be able to target all .sdf files in a directory to be converted to .com files
 - 
 ### log2csv
