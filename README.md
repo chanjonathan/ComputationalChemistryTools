@@ -23,14 +23,14 @@ To be able execute script from anywhere:
 
 `log2com -all` Converts all .log files in directory to .com files. Will prompt user to enter job keywords line.
 
-`geom=connectivity` must NOT be enabled in the job options for this .log to .com conversions.
+`geom=connectivity` must NOT be enabled in the job options for these .log to .com conversions.
 
 ### sdf2com
 `sdf2com file.sdf` Converts specified .sdf file to .com file. Will prompt user to enter job keywords line.
 
 `sdf2com -all` Converts all .sdf files in directory to .com files. Will prompt user to enter job keywords line.
 
-`geom=connectivity` MUST be enabled in the job options for this .sdf to .com conversions.
+`geom=connectivity` MUST be enabled in the job options for these .sdf to .com conversions.
 
 ### log2csv
 `log2csv` Extracts data from all .log files in directory and saves then in a file named `energies.csv`.
